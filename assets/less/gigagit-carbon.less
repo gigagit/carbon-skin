@@ -1,0 +1,157 @@
+﻿/*
+    Package:        Gigagit.com Carbon Skin
+    Package URI:    http://www.gigagit.com/themes/bootstrap/carbon-skin
+    Version:        v1.0
+    Author:         Harpreet Singh Rayat
+    Author URI:     http://www.gigagit.com
+    Description:    Dark Flat Bootstrap Skin
+*/
+@import "variables.less";
+
+kbd {
+    border: 1px solid #333;
+}
+
+.btn {
+    &-default:hover {
+        background-color: darken(@btn-default-bg, 15%);
+    }
+
+    &-primary:hover {
+        background-color: darken(@btn-primary-bg, 15%);
+    }
+
+    &-success:hover {
+        background-color: darken(@btn-success-bg, 15%);
+    }
+
+    &-info:hover {
+        background-color: darken(@btn-info-bg, 15%);
+    }
+
+    &-danger:hover {
+        background-color: darken(@btn-danger-bg, 15%);
+    }
+
+    &-warning:hover {
+        background-color: darken(@btn-warning-bg, 15%);
+    }
+}
+
+.navbar {
+    &-default &-nav > li.active > a:hover {
+        background-color: @navbar-default-link-hover-bg;
+    }
+
+    &-inverse &-nav > li.active > a:hover {
+        background-color: @navbar-inverse-link-hover-bg;
+    }
+}
+
+.table {
+    color: #ffffff;
+
+    .primary,
+    .info,
+    .success,
+    .warning,
+    .danger {
+        color: #ffffff;
+    }
+
+    &-hover tr:hover {
+        cursor: pointer;
+    }
+}
+
+.input-group-addon {
+    color: #ffffff;
+}
+
+.nav {
+    & > li > a:hover {
+        color: #ffffff;
+    }
+}
+
+.pager {
+    & > li > a:hover {
+        color: #ffffff;
+    }
+}
+
+a {
+    &:focus {
+        outline: none;
+    }
+
+    &.list-group-item.active:hover {
+        background-color: @list-group-hover-bg;
+    }
+
+
+    &.list-group-item {
+        &-success,
+        &-info,
+        &-warning,
+        &-danger,
+        &-success:hover,
+        &-info:hover,
+        &-warning:hover,
+        &-danger:hover {
+            color: #ffffff;
+        }
+    }
+
+    &.active.list-group-item {
+        &-success,
+        &-info,
+        &-warning,
+        &-danger,
+        &-success:hover,
+        &-info:hover,
+        &-warning:hover,
+        &-danger:hover {
+            border-color: darken(@list-group-bg, 20%);
+        }
+
+        &-success:hover {
+            background-color: darken(@btn-success-bg, 15%);
+        }
+
+        &-info:hover {
+            background-color: darken(@btn-info-bg, 15%);
+        }
+
+        &-warning:hover {
+            background-color: darken(@btn-warning-bg, 15%);
+        }
+
+        &-danger:hover {
+            background-color: darken(@btn-danger-bg, 15%);
+        }
+    }
+}
+
+.list-group-item {
+    &-success,
+    &-info,
+    &-warning,
+    &-danger {
+        color: #ffffff;
+    }
+}
+
+.alert {
+    &-info,
+    &-primary,
+    &-warning,
+    &-danger,
+    &-success {
+        color: #ffffff;
+
+        .alert-link {
+            color: #ffffff;
+        }
+    }
+}

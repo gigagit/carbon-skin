@@ -1,0 +1,115 @@
+/*
+    Package:        Gigagit.com Carbon Skin
+    Package URI:    http://www.gigagit.com/themes/bootstrap/carbon-skin
+    Version:        v1.0
+    Author:         Harpreet Singh Rayat
+    Author URI:     http://www.gigagit.com
+    Description:    Dark Flat Bootstrap Skin
+*/
+kbd {
+  border: 1px solid #333;
+}
+.btn-default:hover {
+  background-color: #1e1e1e;
+}
+.btn-primary:hover {
+  background-color: #404040;
+}
+.btn-success:hover {
+  background-color: #3d8b3d;
+}
+.btn-info:hover {
+  background-color: #28a1c5;
+}
+.btn-danger:hover {
+  background-color: #b52b27;
+}
+.btn-warning:hover {
+  background-color: #df8a13;
+}
+.navbar-default .navbar-nav > li.active > a:hover {
+  background-color: #222222;
+}
+.navbar-inverse .navbar-nav > li.active > a:hover {
+  background-color: #333333;
+}
+.table {
+  color: #ffffff;
+}
+.table .primary,
+.table .info,
+.table .success,
+.table .warning,
+.table .danger {
+  color: #ffffff;
+}
+.table-hover tr:hover {
+  cursor: pointer;
+}
+.input-group-addon {
+  color: #ffffff;
+}
+.nav > li > a:hover {
+  color: #ffffff;
+}
+.pager > li > a:hover {
+  color: #ffffff;
+}
+a:focus {
+  outline: none;
+}
+a.list-group-item.active:hover {
+  background-color: #222222;
+}
+a.list-group-item-success,
+a.list-group-item-info,
+a.list-group-item-warning,
+a.list-group-item-danger,
+a.list-group-item-success:hover,
+a.list-group-item-info:hover,
+a.list-group-item-warning:hover,
+a.list-group-item-danger:hover {
+  color: #ffffff;
+}
+a.active.list-group-item-success,
+a.active.list-group-item-info,
+a.active.list-group-item-warning,
+a.active.list-group-item-danger,
+a.active.list-group-item-success:hover,
+a.active.list-group-item-info:hover,
+a.active.list-group-item-warning:hover,
+a.active.list-group-item-danger:hover {
+  border-color: #000000;
+}
+a.active.list-group-item-success:hover {
+  background-color: #3d8b3d;
+}
+a.active.list-group-item-info:hover {
+  background-color: #28a1c5;
+}
+a.active.list-group-item-warning:hover {
+  background-color: #df8a13;
+}
+a.active.list-group-item-danger:hover {
+  background-color: #b52b27;
+}
+.list-group-item-success,
+.list-group-item-info,
+.list-group-item-warning,
+.list-group-item-danger {
+  color: #ffffff;
+}
+.alert-info,
+.alert-primary,
+.alert-warning,
+.alert-danger,
+.alert-success {
+  color: #ffffff;
+}
+.alert-info .alert-link,
+.alert-primary .alert-link,
+.alert-warning .alert-link,
+.alert-danger .alert-link,
+.alert-success .alert-link {
+  color: #ffffff;
+}
