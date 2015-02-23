@@ -25,7 +25,7 @@
 // ## Settings for some of the most global styles.
 
 // Background color for `<body>`.
-@body-bg:               #222;
+@body-bg:               #333;
 // Global text color on `<body>`.
 @text-color:           #d4d4d4;
 
@@ -208,7 +208,7 @@
 // Background for the dropdown menu.
 @dropdown-bg:                    #333;
 // Dropdown menu `border-color`.
-@dropdown-border:                rgba(0,0,0,.15);
+@dropdown-border:                rgba(255,255,255,.15);
 // Dropdown menu `border-color` **for IE8**.
 @dropdown-fallback-border:       #ccc;
 // Divider color for between dropdown items.
@@ -219,7 +219,7 @@
 // Hover color for dropdown links.
 @dropdown-link-hover-color:      lighten(@gray-lighter, 5%);
 // Hover background for dropdown links.
-@dropdown-link-hover-bg:         #232323;
+@dropdown-link-hover-bg:         darken(@gray, 5%);
 
 // Active dropdown menu item text color.
 @dropdown-link-active-color:     @component-active-color;
@@ -361,14 +361,14 @@
 // Reset inverted navbar basics
 @navbar-inverse-color:                      @gray-light;
 @navbar-inverse-bg:                         #222;
-@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-border:                     lighten(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
 @navbar-inverse-link-color:                 @gray-light;
 @navbar-inverse-link-hover-color:           #fff;
-@navbar-inverse-link-hover-bg:              #333;
+@navbar-inverse-link-hover-bg:              #444;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
-@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-active-bg:             #444;
 @navbar-inverse-link-disabled-color:        #444;
 @navbar-inverse-link-disabled-bg:           transparent;
 

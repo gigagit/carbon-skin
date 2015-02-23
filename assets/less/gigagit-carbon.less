@@ -13,8 +13,18 @@ kbd {
 }
 
 .btn {
+    &-default {
+      &:focus,
+      &:active,
+      &.active,
+      .open .dropdown-toggle& {
+        background-color: lighten(@btn-default-bg, 15%);
+            border-color: lighten(@btn-default-bg, 12%);
+      }
+    }
+
     &-default:hover {
-        background-color: darken(@btn-default-bg, 15%);
+        background-color: lighten(@btn-default-bg, 15%);
     }
 
     &-primary:hover {

@@ -9,8 +9,15 @@
 kbd {
   border: 1px solid #333;
 }
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open .dropdown-toggle.btn-default {
+  background-color: #6a6a6a;
+  border-color: #636363;
+}
 .btn-default:hover {
-  background-color: #1e1e1e;
+  background-color: #6a6a6a;
 }
 .btn-primary:hover {
   background-color: #404040;
@@ -31,7 +38,7 @@ kbd {
   background-color: #222222;
 }
 .navbar-inverse .navbar-nav > li.active > a:hover {
-  background-color: #333333;
+  background-color: #444444;
 }
 .table {
   color: #ffffff;
