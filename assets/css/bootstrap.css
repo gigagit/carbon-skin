@@ -4358,7 +4358,7 @@ a.list-group-item.active > .badge,
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #333333;
+  background-color: #555555;
 }
 .jumbotron h1,
 .jumbotron .h1 {
@@ -5028,8 +5028,8 @@ a.list-group-item-danger.active:focus {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #333333;
-  border: 1px solid #000000;
+  background-color: #555555;
+  border: 1px solid #222222;
   border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
