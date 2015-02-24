@@ -86,7 +86,7 @@ a.active.list-group-item-success:hover,
 a.active.list-group-item-info:hover,
 a.active.list-group-item-warning:hover,
 a.active.list-group-item-danger:hover {
-  border-color: #000000;
+  border-color: #666666;
 }
 a.active.list-group-item-success:hover {
   background-color: #3d8b3d;
