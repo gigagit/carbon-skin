@@ -420,19 +420,19 @@
 
 @pagination-color:                     @link-color;
 @pagination-bg:                        #333;
-@pagination-border:                    darken(@pagination-bg, 20%);
+@pagination-border:                    lighten(@pagination-bg, 20%);
 
 @pagination-hover-color:               @link-color;
 @pagination-hover-bg:                  @gray-darker;
-@pagination-hover-border:              darken(@pagination-bg, 20%);
+@pagination-hover-border:              lighten(@pagination-bg, 20%);
 
 @pagination-active-color:              #fff;
 @pagination-active-bg:                 darken(@pagination-bg, 20%);
-@pagination-active-border:             darken(@pagination-bg, 20%);
+@pagination-active-border:             lighten(@pagination-bg, 20%);
 
 @pagination-disabled-color:            @gray;
 @pagination-disabled-bg:               #333;
-@pagination-disabled-border:           darken(@pagination-bg, 20%);
+@pagination-disabled-border:           lighten(@pagination-bg, 20%);
 
 
 //== Pager
@@ -639,18 +639,18 @@
 // Background color on `.list-group-item`
 @list-group-bg:                 #333;
 // `.list-group-item` border color
-@list-group-border:             darken(@list-group-bg, 20%);
+@list-group-border:             lighten(@list-group-bg, 20%);
 // List group border radius
 @list-group-border-radius:      @border-radius-base;
 
 // Background color of single list elements on hover
-@list-group-hover-bg:           #222;
+@list-group-hover-bg:           @component-active-bg;
 // Text color of active list elements
 @list-group-active-color:       @component-active-color;
 // Background color of active list elements
 @list-group-active-bg:          @component-active-bg;
 // Border color of active list elements
-@list-group-active-border:      darken(@list-group-bg, 20%);
+@list-group-active-border:      lighten(@list-group-bg, 20%);
 @list-group-active-text-color:  @component-active-color;
 
 @list-group-link-color:         @link-color;
@@ -666,11 +666,11 @@
 @panel-border-radius:         @border-radius-base;
 
 // Border color for elements within panels
-@panel-inner-border:          darken(@panel-bg, 20%);
+@panel-inner-border:          lighten(@panel-bg, 20%);
 @panel-footer-bg:             lighten(@panel-bg, 5%);
 
 @panel-default-text:          @gray-light;
-@panel-default-border:        darken(@panel-bg, 20%);
+@panel-default-border:        lighten(@panel-bg, 20%);
 @panel-default-heading-bg:    lighten(@panel-bg, 10%);
 
 @panel-primary-text:          #fff;
